@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Blood Bank Details"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/logout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/back_arrow_icon" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text=" This  project  aims  to  play  an  important  role  in  saving  life  of  human  beings. The   project  BLOOD  BANK  SYSTEM is  developed  so  that users  can view  the  information  about  registered  blood  donor such as  name, address, mobile no, and  other  such  personal information  along  with  their  details of  blood  group and  other  medical  information  of  donor. Also all  the  donors  have  verified medical record.
+" />
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn"
+        android:text="Exit" />
+
+</LinearLayout>

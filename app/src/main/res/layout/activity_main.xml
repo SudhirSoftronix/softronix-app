@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Bloodbank Management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:padding="12dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+    <TextView android:text="User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:id="@+id/banker"
+        android:layout_margin="15dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:text="Admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:id="@+id/donor"/>
+</LinearLayout>
